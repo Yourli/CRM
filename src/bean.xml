@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:context="http://www.springframework.org/schema/context"
@@ -21,7 +21,7 @@
 		<property name="user" value="root"></property>
 		<property name="password" value="123456"></property>
 	</bean>
-    
+       
     <!-- 分模块 引入 -->
     <import resource="classpath:action/customer.xml"/>
     <import resource="classpath:action/linkman.xml"/>
